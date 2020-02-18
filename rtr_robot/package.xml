@@ -13,6 +13,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>rtr_double_arm_v7</exec_depend>
+  <exec_depend>jog_control</exec_depend>
   
   <export>
     <metapackage/>
