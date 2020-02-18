@@ -14,7 +14,11 @@
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>rtr_double_arm_v7</exec_depend>
   <exec_depend>jog_control</exec_depend>
-  
+  <exec_depend>libnabo</exec_depend>
+  <exec_depend>libpointmatcher</exec_depend>
+  <exec_depend>ethzasl_icp_mapping</exec_depend>
+  <exec_depend>pointcloud_tools</exec_depend>
+ 
   <export>
     <metapackage/>
   </export>

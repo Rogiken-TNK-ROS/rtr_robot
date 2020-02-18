@@ -2,3 +2,19 @@
     local-name: jog_control
     uri: https://github.com/tork-a/jog_control.git
     version: master
+- git:
+    local-name: libnabo
+    uri: https://github.com/WRS-TNK/libnabo.git
+    version: devel
+- git:
+    local-name: libpointmatcher
+    uri: https://github.com/WRS-TNK/libpointmatcher.git
+    version: devel
+- git:
+    local-name: ethzasl_icp_mapping
+    uri: https://github.com/WRS-TNK/ethzasl_icp_mapping.git
+    version: devel
+- git:
+    local-name: pointcloud_tools
+    uri: https://github.com/WRS-TNK/pointcloud_tools.git
+    version: devel
