@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rtr_double_arm_v7</name>
+  <version>0.0.1</version>
+  <description>The rtr_double_arm_v7 package</description>
+  <maintainer email="groadpg@gmail.com">RyodoTanaka</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roslaunch</depend>
+
+  <export>
+  </export>
+</package>

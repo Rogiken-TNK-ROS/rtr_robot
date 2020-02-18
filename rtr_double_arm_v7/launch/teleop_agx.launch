@@ -1,0 +1,13 @@
+<launch>
+  <arg name="rvi_config" default="$(find rtr_double_arm_v7)/launch/config/teleop.rviz"/>
+  
+  <!-- Controller -->
+  <include file="$(find rtr_double_arm_v7_control)/launch/control_agx.launch"/>
+
+  <!-- MoveIt -->
+  <include file="$(find rtr_double_arm_v7_moveit_config)/launch/move_group.launch"/>
+
+  <!-- Rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" required="true"/>
+  
+</launch>
