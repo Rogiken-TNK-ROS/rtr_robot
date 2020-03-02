@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
       Splitter Ratio: 0.5
-    Tree Height: 326
+    Tree Height: 342
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -26,6 +26,8 @@ Panels:
     Name: Time
     SyncMode: 0
     SyncSource: PointCloud2
+  - Class: jog_controller/JogJointPanel
+    Name: JogJointPanel
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -279,194 +281,11 @@ Visualization Manager:
         Color Enabled: false
         Interrupt Display: false
         Links:
-          ARM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           All Links Enabled: true
-          BLOCK:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          BOOM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
-          HANDBASE:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDLNK_I:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDLNK_O:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDSLNK_I:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDSLNK_O:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDTIP_L:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDTIP_U:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           Link Tree Style: Links in Alphabetic Order
-          MANIARM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIBOOM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIELBOW:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIFNG_L:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIFNG_U:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MFRAME:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MNP_SWING:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          PUSHROD:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TFRAME:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_PITCH:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_ROLL:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_TIP_01:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_TIP_02:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          UFRAME:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Velodyne:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          WHEEL_L0:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_L1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_L2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_L3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R0:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WIRE_GUARD_L:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WIRE_GUARD_R:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          YAWJOINT:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          base_footprint:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
         Loop Animation: false
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
@@ -507,194 +326,11 @@ Visualization Manager:
       Scene Robot:
         Attached Body Color: 150; 50; 150
         Links:
-          ARM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           All Links Enabled: true
-          BLOCK:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          BOOM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
-          HANDBASE:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDLNK_I:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDLNK_O:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDSLNK_I:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDSLNK_O:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDTIP_L:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          HANDTIP_U:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           Link Tree Style: Links in Alphabetic Order
-          MANIARM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIBOOM:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIELBOW:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIFNG_L:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MANIFNG_U:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MFRAME:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          MNP_SWING:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          PUSHROD:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TFRAME:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_PITCH:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_ROLL:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_TIP_01:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          TOHKU_TIP_02:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          UFRAME:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Velodyne:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          WHEEL_L0:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_L1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_L2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_L3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R0:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WHEEL_R3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WIRE_GUARD_L:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          WIRE_GUARD_R:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          YAWJOINT:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          base_footprint:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
         Robot Alpha: 1
         Show Robot Collision: false
         Show Robot Visual: true
@@ -733,8 +369,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 6.274869918823242
-        Min Value: -0.6044527292251587
+        Max Value: 6.2814249992370605
+        Min Value: -0.5836436748504639
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -811,14 +447,16 @@ Visualization Manager:
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1052
+  Height: 1025
   Hide Left Dock: false
   Hide Right Dock: true
+  JogJointPanel:
+    collapsed: false
   MotionPlanning:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000002950000037efc020000000bfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d000001d1000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000214000001a7000001a600fffffffb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004100ffffff000000010000010f0000037efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d0000037e000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007800000003efc0100000002fb0000000800540069006d0065010000000000000780000002eb00fffffffb0000000800540069006d00650100000000000004500000000000000000000004e50000037e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd000000040000000000000295000001e1fc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004100ffffff000000010000010f0000037efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d0000037e000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000039f000001fefc0100000002fc000000000000039f000002eb00fffffffa000000020200000004fb0000001a004a006f0067004a006f0069006e007400500061006e0065006c0100000000ffffffff000001e100fffffffb000000100044006900730070006c0061007900730100000000ffffffff000000c900fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000ffffffff000001a600fffffffb0000000800540069006d006501000003ab000000390000003900fffffffb0000000800540069006d006501000000000000045000000000000000000000039f000001a300000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -827,6 +465,6 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: true
-  Width: 1920
-  X: 1920
-  Y: 0
+  Width: 927
+  X: 993
+  Y: 27
