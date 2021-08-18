@@ -1,5 +1,8 @@
 <launch>
   <arg name="rviz_config" default="$(find rtr_double_arm_v7)/launch/config/teleop.rviz"/>
+  <arg name="controller_name" default="ps3"/>
+  <arg name="js_path" default="/dev/input/by-id/usb-Sony_PLAYSTATION_R_3_Controller-joystick"/>
+  <rosparam param="/use_sim_time">true</rosparam>
   
   <!-- Controller -->
   <include file="$(find rtr_double_arm_v7_control)/launch/control_agx.launch"/>
@@ -9,6 +12,15 @@
 
   <!-- Jog control -->
   <include file="$(find rtr_double_arm_v7)/launch/jog_control.launch" respawn="true" />
+
+  <!-- Joycon -->
+  <include file="$(find rtr_joycon)/launch/radial.launch">
+    <arg name="controller_name" value="$(arg controller_name)"/>
+    <arg name="js_path" value="$(arg js_path)"/>
+  </include>
+  <include file="$(find rtr_joycon)/launch/rtr_joycon.launch">
+    <arg name="controller_name" value="$(arg controller_name)"/>
+  </include>
   
   <!-- Rviz -->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" respawn="true"/>
