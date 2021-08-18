@@ -5,7 +5,7 @@
   <rosparam param="/use_sim_time">true</rosparam>
   
   <!-- Controller -->
-  <include file="$(find rtr_double_arm_v7_control)/launch/control_agx.launch"/>
+  <include file="$(find rtr_double_arm_v7_control)/launch/control_aist.launch"/>
 
   <!-- MoveIt -->
   <include file="$(find rtr_double_arm_v7a_moveit_config)/launch/move_group.launch" respawn="true"/>
