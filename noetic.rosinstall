@@ -1,12 +1,4 @@
 - git:
-    local-name: jog_control
-    uri: https://github.com/RyodoTanaka/jog_control.git
-    version: noetic-devel
-- git:
-    local-name: fake_joint
-    uri: https://github.com/tork-a/fake_joint.git
-    version: master
-- git:
     local-name: libnabo
     uri: https://github.com/WRS-TNK/libnabo.git
     version: devel
