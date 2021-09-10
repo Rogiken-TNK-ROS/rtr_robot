@@ -1,4 +1,8 @@
 - git:
+    local-name: libnabo
+    uri: https://github.com/WRS-TNK/libnabo.git
+    version: devel
+- git:
     local-name: libpointmatcher
     uri: https://github.com/WRS-TNK/libpointmatcher.git
     version: devel
