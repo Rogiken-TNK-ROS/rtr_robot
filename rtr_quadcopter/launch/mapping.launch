@@ -18,7 +18,7 @@
 		<!-- <param name="mapPreFiltersConfig" value="$(find ethzasl_icp_mapper)/launch/openni/IROS_2011/map_pre_filters.yaml" />
         <param name="mapPostFiltersConfig" value="$(find ethzasl_icp_mapper)/launch/openni/IROS_2011/map_post_filters.yaml" /> -->
 		
-		<param name="odom_frame" value="HORIZONTAL_PLANE" />
+		<param name="odom_frame" value="UpperRangeSensor" />
 		<param name="map_frame" value="map" />
 		<param name="useROSLogger" value="true" />
 		<param name="inputQueueSize" value="1" />
