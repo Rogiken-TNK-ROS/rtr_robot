@@ -3,6 +3,9 @@
   <arg name="controller_name" default="ps3"/>
   <arg name="js_path" default="/dev/input/by-id/usb-Sony_PLAYSTATION_R_3_Controller-joystick"/>
   <rosparam param="/use_sim_time">true</rosparam>
+
+  <!-- Topic Relay for joint_states -->
+  <node pkg="topic_tools" type="relay" name="relay_joint_states_arm" args="RTRDoubleArmV7/joint_states /joint_states" />
   
   <!-- Controller -->
   <include file="$(find rtr_double_arm_v7_control)/launch/control_aist.launch"/>
