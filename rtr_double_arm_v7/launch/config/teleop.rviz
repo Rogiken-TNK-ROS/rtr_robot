@@ -5,6 +5,8 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /Image1
+        - /TF1/Frames1
       Splitter Ratio: 0.5
     Tree Height: 342
   - Class: rviz/Selection
@@ -72,6 +74,70 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        Camera00:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera01:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera04:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera05:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera06:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera07:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera08:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera09:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera14:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Camera15:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         Expand Joint Details: false
         Expand Link Details: false
         Expand Tree: false
@@ -156,6 +222,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        TOHKU_EEF:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         TOHKU_PITCH:
           Alpha: 1
           Show Axes: false
@@ -176,14 +246,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        TRACK_L:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        TRACK_R:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         UFRAME:
           Alpha: 1
           Show Axes: false
@@ -193,6 +255,46 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        WHEEL_L0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WHEEL_L1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WHEEL_L2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WHEEL_L3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WHEEL_R0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WHEEL_R1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WHEEL_R2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WHEEL_R3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         WIRE_GUARD_L:
           Alpha: 1
           Show Axes: false
@@ -262,6 +364,70 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          Camera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera01:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera02:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera03:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera04:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera05:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera06:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera07:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera08:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera09:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera14:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera15:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
@@ -346,6 +512,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          TOHKU_EEF:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           TOHKU_PITCH:
             Alpha: 1
             Show Axes: false
@@ -490,6 +660,70 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          Camera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera01:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera02:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera03:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera04:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera05:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera06:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera07:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera08:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera09:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera14:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Camera15:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
@@ -574,6 +808,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          TOHKU_EEF:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           TOHKU_PITCH:
             Alpha: 1
             Show Axes: false
@@ -772,7 +1010,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /RTRDoubleArmV7/FRAME_FRONT_CAMERA/image_raw
+      Image Topic: /RTRDoubleArmV7/Camera00/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -781,6 +1019,218 @@ Visualization Manager:
       Queue Size: 2
       Transport Hint: raw
       Unreliable: false
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        ARM:
+          Value: false
+        All Enabled: false
+        BLOCK:
+          Value: false
+        BOOM:
+          Value: false
+        Camera00:
+          Value: true
+        Camera01:
+          Value: true
+        Camera02:
+          Value: true
+        Camera03:
+          Value: true
+        Camera04:
+          Value: true
+        Camera05:
+          Value: true
+        Camera06:
+          Value: true
+        Camera07:
+          Value: true
+        Camera08:
+          Value: true
+        Camera09:
+          Value: true
+        Camera10:
+          Value: true
+        Camera11:
+          Value: true
+        Camera12:
+          Value: true
+        Camera13:
+          Value: true
+        Camera14:
+          Value: true
+        Camera15:
+          Value: true
+        HANDBASE:
+          Value: false
+        HANDLNK_I:
+          Value: false
+        HANDLNK_O:
+          Value: false
+        HANDSLNK_I:
+          Value: false
+        HANDSLNK_O:
+          Value: false
+        HANDTIP_L:
+          Value: false
+        HANDTIP_U:
+          Value: false
+        MANIARM:
+          Value: false
+        MANIBOOM:
+          Value: false
+        MANIELBOW:
+          Value: false
+        MANIFNG_L:
+          Value: false
+        MANIFNG_U:
+          Value: false
+        MFRAME:
+          Value: false
+        MNP_SWING:
+          Value: false
+        PUSHROD:
+          Value: false
+        TFRAME:
+          Value: false
+        TOHKU_EEF:
+          Value: false
+        TOHKU_PITCH:
+          Value: false
+        TOHKU_ROLL:
+          Value: false
+        TOHKU_TIP_01:
+          Value: false
+        TOHKU_TIP_02:
+          Value: false
+        UFRAME:
+          Value: false
+        Velodyne:
+          Value: false
+        WHEEL_L0:
+          Value: false
+        WHEEL_L1:
+          Value: false
+        WHEEL_L2:
+          Value: false
+        WHEEL_L3:
+          Value: false
+        WHEEL_R0:
+          Value: false
+        WHEEL_R1:
+          Value: false
+        WHEEL_R2:
+          Value: false
+        WHEEL_R3:
+          Value: false
+        WIRE_GUARD_L:
+          Value: false
+        WIRE_GUARD_R:
+          Value: false
+        YAWJOINT:
+          Value: false
+        base_footprint:
+          Value: false
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base_footprint:
+          TFRAME:
+            Camera00:
+              {}
+            Camera01:
+              {}
+            Camera02:
+              {}
+            Camera03:
+              {}
+            Camera04:
+              {}
+            Camera05:
+              {}
+            Camera06:
+              {}
+            Camera07:
+              {}
+            Camera08:
+              {}
+            Camera09:
+              {}
+            Camera10:
+              {}
+            Camera11:
+              {}
+            Camera12:
+              {}
+            Camera13:
+              {}
+            Camera14:
+              {}
+            Camera15:
+              {}
+            MFRAME:
+              BLOCK:
+                BOOM:
+                  ARM:
+                    TOHKU_PITCH:
+                      TOHKU_ROLL:
+                        TOHKU_EEF:
+                          {}
+                        TOHKU_TIP_01:
+                          {}
+                        TOHKU_TIP_02:
+                          {}
+            UFRAME:
+              MNP_SWING:
+                MANIBOOM:
+                  MANIARM:
+                    MANIELBOW:
+                      YAWJOINT:
+                        HANDBASE:
+                          HANDLNK_I:
+                            {}
+                          HANDLNK_O:
+                            {}
+                          MANIFNG_L:
+                            HANDTIP_L:
+                              {}
+                          MANIFNG_U:
+                            HANDTIP_U:
+                              {}
+                          PUSHROD:
+                            HANDSLNK_I:
+                              {}
+                            HANDSLNK_O:
+                              {}
+            Velodyne:
+              {}
+            WHEEL_L0:
+              {}
+            WHEEL_L1:
+              {}
+            WHEEL_L2:
+              {}
+            WHEEL_L3:
+              {}
+            WHEEL_R0:
+              {}
+            WHEEL_R1:
+              {}
+            WHEEL_R2:
+              {}
+            WHEEL_R3:
+              {}
+            WIRE_GUARD_L:
+              {}
+            WIRE_GUARD_R:
+              {}
+      Update Interval: 0
       Value: true
   Enabled: true
   Global Options:
@@ -810,7 +1260,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 7.268006324768066
+      Distance: 4.772382736206055
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -818,17 +1268,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 2.566176652908325
-        Y: 0.29342085123062134
-        Z: 0.8299424648284912
+        X: 0.7327471375465393
+        Y: 0.5786658525466919
+        Z: 1.2016630172729492
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.1403980702161789
+      Pitch: 0.0803980901837349
       Target Frame: base_footprint
-      Yaw: 3.505389451980591
+      Yaw: 3.9853928089141846
     Saved: ~
 Window Geometry:
   Displays:
@@ -842,7 +1292,7 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000002950000019afc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016000000010000010f0000037efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d0000037e000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000738000001fefc0100000003fb0000000a0049006d00610067006501000000000000029b0000005e00fffffffc000002a100000497000002eb00fffffffa000000020200000004fb0000001a004a006f0067004a006f0069006e007400500061006e0065006c0100000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000ffffffff000000c900fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000ffffffff0000017d00fffffffb0000000800540069006d006501000003ab000000390000003900fffffffb0000000800540069006d00650100000000000004500000000000000000000007380000019a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000400000000000002950000019afc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016000000010000010f0000037efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d0000037e000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000738000001fefc0100000003fb0000000a0049006d00610067006501000000000000023f0000005e00fffffffc00000245000004f3000002eb00fffffffa000000020200000004fb0000001a004a006f0067004a006f0069006e007400500061006e0065006c0100000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000ffffffff000000c900fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000ffffffff0000017d00fffffffb0000000800540069006d006501000003ab000000390000003900fffffffb0000000800540069006d00650100000000000004500000000000000000000007380000019a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
