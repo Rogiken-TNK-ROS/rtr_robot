@@ -1,14 +1,12 @@
 Panels:
   - Class: rviz/Displays
-    Help Height: 78
+    Help Height: 0
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Global Options1
-        - /Image1
-        - /TF1/Frames1
+        - /MotionPlanning1/Planning Request1
       Splitter Ratio: 0.5
-    Tree Height: 342
+    Tree Height: 384
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -27,7 +25,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: Image
+    SyncSource: Camera00
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -212,6 +210,14 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        ManiDepthCamera00:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ManiDepthCamera02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         PUSHROD:
           Alpha: 1
           Show Axes: false
@@ -246,6 +252,14 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        TohokuDepthCamera00:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        TohokuDepthCamera02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         UFRAME:
           Alpha: 1
           Show Axes: false
@@ -502,6 +516,14 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          ManiDepthCamera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ManiDepthCamera02:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           PUSHROD:
             Alpha: 1
             Show Axes: false
@@ -536,6 +558,14 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          TohokuDepthCamera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          TohokuDepthCamera02:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           UFRAME:
             Alpha: 1
             Show Axes: false
@@ -798,6 +828,14 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          ManiDepthCamera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ManiDepthCamera02:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           PUSHROD:
             Alpha: 1
             Show Axes: false
@@ -832,6 +870,14 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          TohokuDepthCamera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          TohokuDepthCamera02:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           UFRAME:
             Alpha: 1
             Show Axes: false
@@ -908,36 +954,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 5.8056864738464355
-        Min Value: -0.574226975440979
-        Value: true
-      Axis: Z
-      Channel Name: intensity
-      Class: rviz/PointCloud
-      Color: 255; 255; 255
-      Color Transformer: AxisColor
-      Decay Time: 0
-      Enabled: false
-      Invert Rainbow: false
-      Max Color: 255; 255; 255
-      Min Color: 0; 0; 0
-      Name: PointCloud
-      Position Transformer: XYZ
-      Queue Size: 10
-      Selectable: true
-      Size (Pixels): 3
-      Size (m): 0.02500000037252903
-      Style: Spheres
-      Topic: /RTRDoubleArmV7/Velodyne/point_cloud
-      Unreliable: false
-      Use Fixed Frame: true
-      Use rainbow: true
-      Value: false
-    - Alpha: 1
-      Autocompute Intensity Bounds: true
-      Autocompute Value Bounds:
-        Max Value: 6.2814249992370605
-        Min Value: -0.5836436748504639
+        Max Value: 6.266149520874023
+        Min Value: -0.1320413202047348
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -949,7 +967,7 @@ Visualization Manager:
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Min Color: 0; 0; 0
-      Name: PointCloud2
+      Name: 3DPCMap
       Position Transformer: XYZ
       Queue Size: 10
       Selectable: true
@@ -961,8 +979,473 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
+    - Class: rviz/Image
+      Enabled: true
+      Image Topic: /RTRDoubleArmV7/Camera00/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Camera00
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: compressed
+      Unreliable: false
+      Value: true
+    - Class: rviz/Image
+      Enabled: true
+      Image Topic: /RTRDoubleArmV7/Camera01/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Camera01
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: compressed
+      Unreliable: false
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /RTRDoubleArmV7/Camera02/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Camera02
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /RTRDoubleArmV7/Camera03/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Camera03
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /RTRDoubleArmV7/Camera14/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Camera14
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: compressed
+      Unreliable: false
+      Value: false
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /RTRDoubleArmV7/Camera15/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Camera15
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: ManiDepth00
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /RTRDoubleArmV7/ManiDepthCamera00/point_cloud
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: ""
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: ManiDepth02
+      Position Transformer: ""
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /RTRDoubleArmV7/ManiDepthCamera02/point_cloud
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: TohokuDepth00
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /RTRDoubleArmV7/TohokuDepthCamera00/point_cloud
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: ""
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: TohokuDepth02
+      Position Transformer: ""
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /RTRDoubleArmV7/TohokuDepthCamera02/point_cloud
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        ARM:
+          Value: false
+        ARM02:
+          Value: true
+        ARM13:
+          Value: true
+        All Enabled: false
+        BLOCK:
+          Value: false
+        BODY:
+          Value: true
+        BOOM:
+          Value: false
+        CAMERA_T:
+          Value: true
+        Camera:
+          Value: true
+        Camera00:
+          Value: true
+        Camera01:
+          Value: true
+        Camera02:
+          Value: true
+        Camera03:
+          Value: true
+        Camera04:
+          Value: true
+        Camera05:
+          Value: true
+        Camera06:
+          Value: true
+        Camera07:
+          Value: true
+        Camera08:
+          Value: true
+        Camera09:
+          Value: true
+        Camera10:
+          Value: true
+        Camera11:
+          Value: true
+        Camera12:
+          Value: true
+        Camera13:
+          Value: true
+        Camera14:
+          Value: true
+        Camera15:
+          Value: true
+        Camera2:
+          Value: true
+        GUARD0:
+          Value: true
+        GUARD1:
+          Value: true
+        GUARD2:
+          Value: true
+        GUARD3:
+          Value: true
+        HANDBASE:
+          Value: false
+        HANDLNK_I:
+          Value: false
+        HANDLNK_O:
+          Value: false
+        HANDSLNK_I:
+          Value: false
+        HANDSLNK_O:
+          Value: false
+        HANDTIP_L:
+          Value: false
+        HANDTIP_U:
+          Value: false
+        HORIZONTAL_PLANE:
+          Value: true
+        LEG0:
+          Value: true
+        LEG1:
+          Value: true
+        LEG2:
+          Value: true
+        LEG3:
+          Value: true
+        LowerRangeSensor:
+          Value: true
+        MANIARM:
+          Value: false
+        MANIBOOM:
+          Value: false
+        MANIELBOW:
+          Value: false
+        MANIFNG_L:
+          Value: false
+        MANIFNG_U:
+          Value: false
+        MFRAME:
+          Value: false
+        MNP_SWING:
+          Value: false
+        ManiDepthCamera00:
+          Value: true
+        ManiDepthCamera02:
+          Value: true
+        PROP0:
+          Value: true
+        PROP1:
+          Value: true
+        PROP2:
+          Value: true
+        PROP3:
+          Value: true
+        PUSHROD:
+          Value: false
+        ROTOR0:
+          Value: true
+        ROTOR1:
+          Value: true
+        ROTOR2:
+          Value: true
+        ROTOR3:
+          Value: true
+        TFRAME:
+          Value: false
+        TOHKU_EEF:
+          Value: false
+        TOHKU_PITCH:
+          Value: false
+        TOHKU_ROLL:
+          Value: true
+        TOHKU_TIP_01:
+          Value: false
+        TOHKU_TIP_02:
+          Value: false
+        TohokuDepthCamera00:
+          Value: true
+        TohokuDepthCamera02:
+          Value: true
+        UFRAME:
+          Value: false
+        UpperRangeSensor:
+          Value: true
+        Velodyne:
+          Value: false
+        WHEEL_L0:
+          Value: false
+        WHEEL_L1:
+          Value: false
+        WHEEL_L2:
+          Value: false
+        WHEEL_L3:
+          Value: false
+        WHEEL_R0:
+          Value: false
+        WHEEL_R1:
+          Value: false
+        WHEEL_R2:
+          Value: false
+        WHEEL_R3:
+          Value: false
+        WIRE_GUARD_L:
+          Value: false
+        WIRE_GUARD_R:
+          Value: false
+        YAWJOINT:
+          Value: false
+        base_footprint:
+          Value: false
+        map:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        map:
+          base_footprint:
+            TFRAME:
+              Camera00:
+                {}
+              Camera01:
+                {}
+              Camera02:
+                {}
+              Camera03:
+                {}
+              Camera04:
+                {}
+              Camera05:
+                {}
+              Camera06:
+                {}
+              Camera07:
+                {}
+              Camera08:
+                {}
+              Camera09:
+                {}
+              Camera10:
+                {}
+              Camera11:
+                {}
+              Camera12:
+                {}
+              Camera13:
+                {}
+              Camera14:
+                {}
+              Camera15:
+                {}
+              MFRAME:
+                BLOCK:
+                  BOOM:
+                    ARM:
+                      TOHKU_PITCH:
+                        TOHKU_ROLL:
+                          TOHKU_EEF:
+                            {}
+                          TOHKU_TIP_01:
+                            {}
+                          TOHKU_TIP_02:
+                            {}
+                          TohokuDepthCamera00:
+                            {}
+                          TohokuDepthCamera02:
+                            {}
+              UFRAME:
+                MNP_SWING:
+                  MANIBOOM:
+                    MANIARM:
+                      MANIELBOW:
+                        YAWJOINT:
+                          HANDBASE:
+                            HANDLNK_I:
+                              {}
+                            HANDLNK_O:
+                              {}
+                            MANIFNG_L:
+                              HANDTIP_L:
+                                {}
+                            MANIFNG_U:
+                              HANDTIP_U:
+                                {}
+                            ManiDepthCamera00:
+                              {}
+                            ManiDepthCamera02:
+                              {}
+                            PUSHROD:
+                              HANDSLNK_I:
+                                {}
+                              HANDSLNK_O:
+                                {}
+              Velodyne:
+                {}
+              WHEEL_L0:
+                {}
+              WHEEL_L1:
+                {}
+              WHEEL_L2:
+                {}
+              WHEEL_L3:
+                {}
+              WHEEL_R0:
+                {}
+              WHEEL_R1:
+                {}
+              WHEEL_R2:
+                {}
+              WHEEL_R3:
+                {}
+              WIRE_GUARD_L:
+                {}
+              WIRE_GUARD_R:
+                {}
+      Update Interval: 0
+      Value: true
     - Bg alpha: 128
-      Center x: 1500
+      Center x: 950
       Center y: 250
       Class: radial_menu_rviz/RadialMenu
       Enabled: true
@@ -999,7 +1482,7 @@ Visualization Manager:
       Item (selected): 255; 250; 255
       Item bg (pointed): 159; 198; 230
       Item bg (selected): 10; 36; 99
-      Left: 1400
+      Left: 900
       Line width: 8
       Menu description: /teleop_menu_description
       Name: HTeleopMenu
@@ -1008,230 +1491,34 @@ Visualization Manager:
       Title bg: 255; 250; 255
       Top: 0
       Value: true
-    - Class: rviz/Image
-      Enabled: true
-      Image Topic: /RTRDoubleArmV7/Camera00/image_raw
-      Max Value: 1
-      Median window: 5
-      Min Value: 0
-      Name: Image
-      Normalize Range: true
-      Queue Size: 2
-      Transport Hint: raw
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 6.258246421813965
+        Min Value: -0.13203728199005127
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: VelodyneLatestScan
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.02500000037252903
+      Style: Spheres
+      Topic: /RTRDoubleArmV7/Velodyne/point_cloud
       Unreliable: false
-      Value: true
-    - Class: rviz/TF
-      Enabled: true
-      Frame Timeout: 15
-      Frames:
-        ARM:
-          Value: false
-        All Enabled: false
-        BLOCK:
-          Value: false
-        BOOM:
-          Value: false
-        Camera00:
-          Value: true
-        Camera01:
-          Value: true
-        Camera02:
-          Value: true
-        Camera03:
-          Value: true
-        Camera04:
-          Value: true
-        Camera05:
-          Value: true
-        Camera06:
-          Value: true
-        Camera07:
-          Value: true
-        Camera08:
-          Value: true
-        Camera09:
-          Value: true
-        Camera10:
-          Value: true
-        Camera11:
-          Value: true
-        Camera12:
-          Value: true
-        Camera13:
-          Value: true
-        Camera14:
-          Value: true
-        Camera15:
-          Value: true
-        HANDBASE:
-          Value: false
-        HANDLNK_I:
-          Value: false
-        HANDLNK_O:
-          Value: false
-        HANDSLNK_I:
-          Value: false
-        HANDSLNK_O:
-          Value: false
-        HANDTIP_L:
-          Value: false
-        HANDTIP_U:
-          Value: false
-        MANIARM:
-          Value: false
-        MANIBOOM:
-          Value: false
-        MANIELBOW:
-          Value: false
-        MANIFNG_L:
-          Value: false
-        MANIFNG_U:
-          Value: false
-        MFRAME:
-          Value: false
-        MNP_SWING:
-          Value: false
-        PUSHROD:
-          Value: false
-        TFRAME:
-          Value: false
-        TOHKU_EEF:
-          Value: false
-        TOHKU_PITCH:
-          Value: false
-        TOHKU_ROLL:
-          Value: false
-        TOHKU_TIP_01:
-          Value: false
-        TOHKU_TIP_02:
-          Value: false
-        UFRAME:
-          Value: false
-        Velodyne:
-          Value: false
-        WHEEL_L0:
-          Value: false
-        WHEEL_L1:
-          Value: false
-        WHEEL_L2:
-          Value: false
-        WHEEL_L3:
-          Value: false
-        WHEEL_R0:
-          Value: false
-        WHEEL_R1:
-          Value: false
-        WHEEL_R2:
-          Value: false
-        WHEEL_R3:
-          Value: false
-        WIRE_GUARD_L:
-          Value: false
-        WIRE_GUARD_R:
-          Value: false
-        YAWJOINT:
-          Value: false
-        base_footprint:
-          Value: false
-      Marker Alpha: 1
-      Marker Scale: 1
-      Name: TF
-      Show Arrows: true
-      Show Axes: true
-      Show Names: true
-      Tree:
-        base_footprint:
-          TFRAME:
-            Camera00:
-              {}
-            Camera01:
-              {}
-            Camera02:
-              {}
-            Camera03:
-              {}
-            Camera04:
-              {}
-            Camera05:
-              {}
-            Camera06:
-              {}
-            Camera07:
-              {}
-            Camera08:
-              {}
-            Camera09:
-              {}
-            Camera10:
-              {}
-            Camera11:
-              {}
-            Camera12:
-              {}
-            Camera13:
-              {}
-            Camera14:
-              {}
-            Camera15:
-              {}
-            MFRAME:
-              BLOCK:
-                BOOM:
-                  ARM:
-                    TOHKU_PITCH:
-                      TOHKU_ROLL:
-                        TOHKU_EEF:
-                          {}
-                        TOHKU_TIP_01:
-                          {}
-                        TOHKU_TIP_02:
-                          {}
-            UFRAME:
-              MNP_SWING:
-                MANIBOOM:
-                  MANIARM:
-                    MANIELBOW:
-                      YAWJOINT:
-                        HANDBASE:
-                          HANDLNK_I:
-                            {}
-                          HANDLNK_O:
-                            {}
-                          MANIFNG_L:
-                            HANDTIP_L:
-                              {}
-                          MANIFNG_U:
-                            HANDTIP_U:
-                              {}
-                          PUSHROD:
-                            HANDSLNK_I:
-                              {}
-                            HANDSLNK_O:
-                              {}
-            Velodyne:
-              {}
-            WHEEL_L0:
-              {}
-            WHEEL_L1:
-              {}
-            WHEEL_L2:
-              {}
-            WHEEL_L3:
-              {}
-            WHEEL_R0:
-              {}
-            WHEEL_R1:
-              {}
-            WHEEL_R2:
-              {}
-            WHEEL_R3:
-              {}
-            WIRE_GUARD_L:
-              {}
-            WIRE_GUARD_R:
-              {}
-      Update Interval: 0
-      Value: true
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -1260,7 +1547,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 4.772382736206055
+      Distance: 4.547009468078613
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -1268,31 +1555,41 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.7327471375465393
-        Y: 0.5786658525466919
-        Z: 1.2016630172729492
+        X: 0.4640543460845947
+        Y: -1.0039427280426025
+        Z: 1.0194599628448486
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.0803980901837349
+      Pitch: 0.41039860248565674
       Target Frame: base_footprint
-      Yaw: 3.9853928089141846
+      Yaw: 3.3803834915161133
     Saved: ~
 Window Geometry:
+  Camera00:
+    collapsed: false
+  Camera01:
+    collapsed: false
+  Camera02:
+    collapsed: false
+  Camera03:
+    collapsed: false
+  Camera14:
+    collapsed: false
+  Camera15:
+    collapsed: false
   Displays:
     collapsed: false
   Height: 1016
   Hide Left Dock: false
   Hide Right Dock: true
-  Image:
-    collapsed: false
   MotionPlanning:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000002950000019afc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016000000010000010f0000037efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d0000037e000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000738000001fefc0100000003fb0000000a0049006d00610067006501000000000000023f0000005e00fffffffc00000245000004f3000002eb00fffffffa000000020200000004fb0000001a004a006f0067004a006f0069006e007400500061006e0065006c0100000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000ffffffff000000c900fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000ffffffff0000017d00fffffffb0000000800540069006d006501000003ab000000390000003900fffffffb0000000800540069006d00650100000000000004500000000000000000000007380000019a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000029b000001befc020000000dfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001000430061006d00650072006100300032000000003d000001be0000001600fffffffb0000000a0049006d00610067006500000001390000009e0000000000000000fb0000001000430061006d00650072006100300031010000003d000001be0000001600fffffffb0000001000430061006d00650072006100310034000000003d000001be0000001600ffffff000000010000010f0000037efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d0000037e000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000738000001dafc0100000005fb0000001000430061006d006500720061003000300100000000000002980000007900fffffffb0000001000430061006d0065007200610030003300000000000000029b0000007900fffffffb0000001000430061006d0065007200610031003500000000000000029b0000007900fffffffc0000029e0000049a000002eb00fffffffa000000010200000004fb0000001a004a006f0067004a006f0069006e007400500061006e0065006c0100000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000ffffffff000000c900fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000ffffffff0000017d00fffffffb0000000800540069006d006501000003ab000000390000003900fffffffb0000000800540069006d0065010000000000000450000000000000000000000497000001be00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
