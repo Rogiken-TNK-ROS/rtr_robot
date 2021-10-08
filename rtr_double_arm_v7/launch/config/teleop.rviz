@@ -256,7 +256,15 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        TohokuDepthCamera02:
+        TohokuDepthCamera01:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        TohokuSideCamera00:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        TohokuSideCamera01:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -562,7 +570,15 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          TohokuDepthCamera02:
+          TohokuDepthCamera01:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          TohokuSideCamera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          TohokuSideCamera01:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -874,7 +890,15 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          TohokuDepthCamera02:
+          TohokuDepthCamera01:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          TohokuSideCamera00:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          TohokuSideCamera01:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -1119,7 +1143,7 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: RGB8
       Decay Time: 0
-      Enabled: false
+      Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Min Color: 0; 0; 0
@@ -1134,7 +1158,7 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
-      Value: false
+      Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
@@ -1147,22 +1171,22 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: ""
       Decay Time: 0
-      Enabled: false
+      Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Min Color: 0; 0; 0
-      Name: TohokuDepth02
+      Name: TohokuDepth01
       Position Transformer: ""
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /RTRDoubleArmV7/TohokuDepthCamera02/point_cloud
+      Topic: /RTRDoubleArmV7/TohokuDepthCamera01/point_cloud
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
-      Value: false
+      Value: true
     - Class: rviz/TF
       Enabled: true
       Frame Timeout: 15
@@ -1302,7 +1326,11 @@ Visualization Manager:
           Value: false
         TohokuDepthCamera00:
           Value: true
-        TohokuDepthCamera02:
+        TohokuDepthCamera01:
+          Value: true
+        TohokuSideCamera00:
+          Value: true
+        TohokuSideCamera01:
           Value: true
         UFRAME:
           Value: false
