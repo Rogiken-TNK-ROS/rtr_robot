@@ -11,7 +11,7 @@
   <include file="$(find rtr_double_arm_v7_control)/launch/control_agx.launch"/>
 
   <!-- MoveIt -->
-  <include file="$(find rtr_double_arm_v7a_moveit_config)/launch/move_group.launch" respawn="true"/>
+  <include file="$(find rtr_double_arm_v7a_moveit_config)/launch/move_group.launch"/>
 
   <!-- Radial Menu -->
   <include file="$(find rtr_joycon)/launch/radial.launch">
