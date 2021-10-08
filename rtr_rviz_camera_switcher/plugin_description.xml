@@ -1,0 +1,8 @@
+<library path="librtr_rviz_camera_switcher">
+  <!-- Dial Panel -->
+  <class name="rtr_rviz_camera_switcher/Panel" type="rtr_rviz_camera_switcher::Panel" base_class_type="rviz::Panel">
+    <description>
+      Rogoken+/TNK-ROS Camera Switching Rviz Panel plugin.
+    </description>
+  </class>
+</library>

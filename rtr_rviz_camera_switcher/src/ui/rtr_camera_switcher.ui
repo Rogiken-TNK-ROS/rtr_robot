@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>CameraSwitcherUI</class>
+    <widget class="QWidget" name="CameraSwitcher">
+        <widget class="QGroupBox" name="CAM00">
+            <property name="geometry">
+                <rect>
+                    <x>330</x>
+                    <y>230</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera00</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM00_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM00_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM01">
+            <property name="geometry">
+                <rect>
+                    <x>330</x>
+                    <y>180</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera01</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM01_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM01_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM12">
+            <property name="geometry">
+                <rect>
+                    <x>430</x>
+                    <y>290</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera12</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM12_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM12_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM13">
+            <property name="geometry">
+                <rect>
+                    <x>530</x>
+                    <y>290</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera13</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM13_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM13_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM04">
+            <property name="geometry">
+                <rect>
+                    <x>230</x>
+                    <y>290</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera04</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM04_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM04_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM05">
+            <property name="geometry">
+                <rect>
+                    <x>130</x>
+                    <y>290</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera05</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM05_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM05_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM02">
+            <property name="geometry">
+                <rect>
+                    <x>230</x>
+                    <y>230</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera02</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM02_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM02_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM03">
+            <property name="geometry">
+                <rect>
+                    <x>130</x>
+                    <y>200</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera03</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM03_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM03_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM08">
+            <property name="geometry">
+                <rect>
+                    <x>330</x>
+                    <y>340</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera08</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM08_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM08_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM09">
+            <property name="geometry">
+                <rect>
+                    <x>330</x>
+                    <y>390</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera09</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM09_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM09_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM06">
+            <property name="geometry">
+                <rect>
+                    <x>230</x>
+                    <y>340</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera06</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM06_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM06_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM07">
+            <property name="geometry">
+                <rect>
+                    <x>130</x>
+                    <y>390</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera07</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM07_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM07_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM10">
+            <property name="geometry">
+                <rect>
+                    <x>430</x>
+                    <y>340</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera10</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM10_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM10_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM11">
+            <property name="geometry">
+                <rect>
+                    <x>530</x>
+                    <y>390</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera11</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_14">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM11_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM11_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM14">
+            <property name="geometry">
+                <rect>
+                    <x>430</x>
+                    <y>230</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera14</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM14_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM14_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="CAM15">
+            <property name="geometry">
+                <rect>
+                    <x>530</x>
+                    <y>200</y>
+                    <width>101</width>
+                    <height>51</height>
+                </rect>
+            </property>
+            <property name="title">
+                <string>Camera15</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_16">
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <property name="leftMargin">
+                    <number>4</number>
+                </property>
+                <property name="topMargin">
+                    <number>4</number>
+                </property>
+                <property name="rightMargin">
+                    <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>4</number>
+                </property>
+                <item>
+                    <widget class="QPushButton" name="CAM15_ON">
+                        <property name="text">
+                            <string>ON</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="CAM15_OFF">
+                        <property name="text">
+                            <string>OFF</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="MANI_ARM">
+            <property name="geometry">
+                <rect>
+                    <x>40</x>
+                    <y>10</y>
+                    <width>341</width>
+                    <height>161</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                </font>
+            </property>
+            <property name="title">
+                <string>MANI</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+                <item row="0" column="0">
+                    <widget class="QGroupBox" name="MANI_DCAM00">
+                        <property name="title">
+                            <string>DepthCamera00</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_18">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="MANI_DCAM00_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="MANI_DCAM00_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="0" column="1">
+                    <widget class="QGroupBox" name="MANI_DCAM01">
+                        <property name="title">
+                            <string>DepthCamera01</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_19">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="MANI_DCAM01_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="MANI_DCAM01_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="1" column="0">
+                    <widget class="QGroupBox" name="MANI_SCAM00">
+                        <property name="title">
+                            <string>SideCamera00</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_17">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="MANI_SCAM00_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="MANI_SCAM00_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="1" column="1">
+                    <widget class="QGroupBox" name="MANI_SCAM01">
+                        <property name="title">
+                            <string>SideCamera01</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_23">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="MANI_SCAM01_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="MANI_SCAM01_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QGroupBox" name="TOHOKU_ARM">
+            <property name="geometry">
+                <rect>
+                    <x>390</x>
+                    <y>10</y>
+                    <width>341</width>
+                    <height>161</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                </font>
+            </property>
+            <property name="title">
+                <string>TOHOKU</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+                <item row="0" column="0">
+                    <widget class="QGroupBox" name="TOHOKU_DCAM00">
+                        <property name="title">
+                            <string>DepthCamera00</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_20">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_DCAM00_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_DCAM00_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="0" column="1">
+                    <widget class="QGroupBox" name="TOHOKU_DCAM01">
+                        <property name="title">
+                            <string>DepthCamera01</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_21">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_DCAM01_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_DCAM01_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="1" column="0">
+                    <widget class="QGroupBox" name="TOHOKU_SCAM00">
+                        <property name="title">
+                            <string>SideCamera00</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_22">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_SCAM00_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_SCAM00_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="1" column="1">
+                    <widget class="QGroupBox" name="TOHOKU_SCAM01">
+                        <property name="title">
+                            <string>SideCamera01</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_24">
+                            <property name="spacing">
+                                <number>4</number>
+                            </property>
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_SCAM01_ON">
+                                    <property name="text">
+                                        <string>ON</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="TOHOKU_SCAM01_OFF">
+                                    <property name="text">
+                                        <string>OFF</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+</ui>
